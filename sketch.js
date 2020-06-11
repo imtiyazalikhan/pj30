@@ -25,16 +25,16 @@ function setup(){
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
 
-    log1 = new Log(810,260,300, PI/2);
+    log1 = new Log(730,360,70,90);
 
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
 
-    log3 =  new Log(810,180,300, PI/2);
+    log3 =  new Log(710,380,70,90);
 
     box5 = new Box(810,160,70,70);
-    log4 = new Log(760,120,150, PI/7);
-    log5 = new Log(870,120,150, -PI/7);
+    log4 = new Log(760,320,70, 90);
+    log5 = new Log(770,320,70, 90);
 
     bird = new Bird(200,50);
 
